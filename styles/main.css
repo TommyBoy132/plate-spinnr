@@ -1,0 +1,45 @@
+:root {
+  --completed: grey;
+}
+html,body {
+  width: 100%;
+  margin: 0;
+}
+p,li {
+  padding: 0;
+  margin: 0;
+}
+.task-container{
+  width: 50%;
+  min-width: 500px;
+}
+.task-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: aquamarine;
+}
+.task-header p {
+  padding: 1rem 0.5rem;
+}
+.task-detail {
+  background-color: aliceblue;
+}
+.hidden {
+  display: none;
+}
+.u-ul-flat-styling {
+  padding: 0;
+  margin: 0;
+}
+.u-ul-flat-styling li {
+  margin: 0;
+}
+.u-flex {
+  display: flex;
+  align-items: center;
+}
+.completed {
+  text-decoration: line-through;
+  color: var(--completed);
+}
